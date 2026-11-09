@@ -5,13 +5,13 @@ int main(void)
     int input;
     scanf("%d", &input);
 
-   if (input >= 100)
+   if (input > 100)
    {
         printf("NG")
    }
     else if  (input >= 90)
         printf("AA");
-    else if (input > 80)
+    else if (input >= 80)
         printf("A");
     else if (input >= 70)
         printf("B");
@@ -21,7 +21,7 @@ int main(void)
         printf("D");
     else if (input == 0)
     {
-        printf
+        printf("/")
     }
     else
         printf("NG");
