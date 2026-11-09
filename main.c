@@ -5,7 +5,7 @@ int main(void)
     int input;
     scanf("%d", &input);
 
-   if (input >= 101)
+   if (input >= 100)
    {
         printf("NG")
    }
