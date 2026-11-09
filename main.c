@@ -21,7 +21,7 @@ int main(void)
         printf("D");
     else if (input == 0)
     {
-        printf("/")
+         printf("/")
     }
     else
         printf("NG");
